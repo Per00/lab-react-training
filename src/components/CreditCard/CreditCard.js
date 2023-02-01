@@ -1,0 +1,1 @@
+export function CreditCard(props) {}

@@ -1,3 +1,5 @@
+import './card.css';
+
 export function IdCard(props) {
   return (
     <div className="card">

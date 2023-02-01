@@ -1,3 +1,1 @@
-export function Random(props) {
-  return <div></div>;
-}
+export function Random(props) {}
