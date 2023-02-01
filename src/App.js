@@ -2,10 +2,10 @@ import './App.css';
 import { IdCard } from './components/card/card';
 import { Greetings } from './components/greetings/greetings';
 import { BoxColor } from './components/BoxColor/BoxColor';
-import { CreditCard } from './components/CreditCard/CreditCard';
-import { DriverCard } from './components/DriverCard/DriverCard';
-import { Random } from './components/Random/Random';
-import { Rating } from './components/Rating/Rating';
+//import { CreditCard } from './components/CreditCard/CreditCard';
+//import { DriverCard } from './components/DriverCard/DriverCard';
+//import { Random } from './components/Random/Random';
+//import { Rating } from './components/Rating/Rating';
 
 function App() {
   return (
@@ -29,6 +29,9 @@ function App() {
       />
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
+
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
     </div>
   );
 }

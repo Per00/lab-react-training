@@ -1,12 +1,9 @@
 export function Greetings(props) {
-  console.log(props);
-
-  return (
-    <div className="lang">
-      <p>
-        {props.lang} {'Hallo'} {props.children}
-        {props.lang} {'Bonjuar'} {props.children}
-      </p>
-    </div>
-  );
+  //console.log(props);
+  if (props.lang === 'de') {
+    return <p>Hallo! {props.children}</p>;
+  }
+  if (props.lang === 'fr') {
+    return <p>Bonjuar! {props.children}</p>;
+  }
 }
